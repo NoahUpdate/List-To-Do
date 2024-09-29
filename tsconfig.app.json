@@ -22,15 +22,39 @@
 
     /* Paths */
     "paths": {
-      "@pages": ["./src/components/pages", "./src/components/pages/*"],
-      "@atoms": ["./src/components/atoms", "./src/components/atoms/*"],
-      "@molecules": ["./src/components/molecules", "./src/components/molecules/*"],
-      "@organisms": ["./src/components/organisms", "./src/components/organisms/*"],
-      "@templates": ["./src/components/templates", "./src/components/templates/*"],
+      "@pages": [
+        "./src/components/pages",
+        "./src/components/pages/*"
+      ],
+      "@atoms": [
+        "./src/components/atoms",
+        "./src/components/atoms/*"
+      ],
+      "@molecules": [
+        "./src/components/molecules",
+        "./src/components/molecules/*"
+      ],
+      "@organisms": [
+        "./src/components/organisms",
+        "./src/components/organisms/*"
+      ],
+      "@templates": [
+        "./src/components/templates",
+        "./src/components/templates/*"
+      ],
       "@types": ["./src/types", "./src/types/*"],
-      "@interfaces": ["./src/interfaces", "./src/interfaces/*"],
-      "@images": ["./src/assets/images", "./src/assets/images/*"],
-      "@icons": ["./src/assets/icons", "./src/assets/icons/*"],
+      "@interfaces": [
+        "./src/interfaces",
+        "./src/interfaces/*"
+      ],
+      "@images": [
+        "./src/assets/images",
+        "./src/assets/images/*"
+      ],
+      "@icons": [
+        "./src/assets/icons",
+        "./src/assets/icons/*"
+      ],
       "@hooks": ["./src/hooks", "./src/hooks/*"],
       "@services": ["./src/services", "./src/services/*"],
       "@configs": ["./src/configs", "./src/configs/*"],

@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  /* color: hsla(143, 86%, 80%, 0.15); */
 }
 
 /* rama TW     color: #213547;*/
@@ -7,10 +8,4 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: #213547;
-  font-weight: 700;
-}
+/* text-[#213547] text-[3.2em]  */

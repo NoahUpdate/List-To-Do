@@ -10,31 +10,52 @@ export default defineConfig({
     alias: [
       {
         find: '@images',
-        replacement: path.resolve(__dirname, 'src/assets/images')
+        replacement: path.resolve(
+          __dirname,
+          'src/assets/images'
+        )
       },
       {
         find: '@icons',
-        replacement: path.resolve(__dirname, 'src/assets/icons')
+        replacement: path.resolve(
+          __dirname,
+          'src/assets/icons'
+        )
       },
       {
         find: '@pages',
-        replacement: path.resolve(__dirname, 'src/components/pages')
+        replacement: path.resolve(
+          __dirname,
+          'src/components/pages'
+        )
       },
       {
         find: '@atoms',
-        replacement: path.resolve(__dirname, 'src/components/atoms')
+        replacement: path.resolve(
+          __dirname,
+          'src/components/atoms'
+        )
       },
       {
         find: '@molecules',
-        replacement: path.resolve(__dirname, 'src/components/molecules')
+        replacement: path.resolve(
+          __dirname,
+          'src/components/molecules'
+        )
       },
       {
         find: '@templates',
-        replacement: path.resolve(__dirname, 'src/components/templates')
+        replacement: path.resolve(
+          __dirname,
+          'src/components/templates'
+        )
       },
       {
         find: '@organisms',
-        replacement: path.resolve(__dirname, 'src/components/organisms')
+        replacement: path.resolve(
+          __dirname,
+          'src/components/organisms'
+        )
       },
       {
         find: '@utils',
