@@ -27,7 +27,7 @@ export const ItemList: React.FC<ItemListProps> = ({ items, onRemoveItem }) => {
           rounded-md gap-1 border-custom-xlight border-2 flex justify-between"
           >
             {item}
-            <button onClick={() => handleClick(item)} className="bg-custom-light border-custom-xlight border-2 p-1 rounded-sm flex items-center hover:border-custom-white hover:bg-custom-bold">-</button>
+            <button onClick={() => handleClick(item)} className="bg-custom-light border-custom-xlight border-2 p-1 rounded-sm flex items-center hover:border-custom-white hover:bg-custom-bold focus:outline-none">-</button>
           </li>
         ))}
       </ul>
