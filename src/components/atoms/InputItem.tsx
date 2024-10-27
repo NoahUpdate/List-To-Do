@@ -44,16 +44,16 @@ export const InputItem: React.FC<InputItemProps>  = ({ onAddItem }) => {
         onChange={handleInputChange}
         onKeyDown={handleKeyDown} // Agrega el manejador de eventos para "Enter"
         placeholder="Agregar nueva tarea"
-        className="bg-custom-light w-[338px] h-[44px] flex pt-[10px]
-        pr-[12px] pb-[10px] pl-[10px] rounded-2xl items-center placeholder:text-custom-white 
+        className="bg-custom-light w-3/5 sm:w-[338px] h-[44px] flex pt-[10px]
+        pr-[12px] pb-[10px] pl-[10px] rounded-lg sm:rounded-2xl items-center placeholder:text-custom-white 
         flex-grow basis-0 border-custom-xlight border-2 focus:border-custom-white focus:outline-none focus:bg-custom-bold focus:placeholder-slate-50"
         />
       <button
         ref={buttonRef} // Asigna la referencia al botón
         onClick={handleAddItem}
         onKeyDown={handleButtonKeyDown} // Manejar la tecla Tab
-        className="bg-custom-light w-[338px] h-[44px] flex pt-[10px]
-        pr-[12px] pb-[10px] pl-[10px] rounded-2xl items-center
+        className="bg-custom-light w-2/5 sm:w-[338px] h-[44px] flex pt-[10px]
+        pr-[12px] pb-[10px] pl-[10px] rounded-lg sm:rounded-2xl items-center
         flex-shrink-0 basis-0 border-custom-xlight border-2
         text-center font-semibold text-green-950 focus:outline-none focus:border-custom-white" >AGREGAR</button>
     </div>
